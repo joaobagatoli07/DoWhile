@@ -38,15 +38,39 @@
 .section-title {
     font-family: 'IBM Plex Sans Thai', sans-serif;
     font-size: 2.5rem;
-    font-weight: 600;
     color: var(--color-darkGray);
 }
 
 .section-arrow-button {
     background-color: var(--color-black);
     color: white;
+    border-radius: 20px;
+}
+
+.section-arrow-button i {
+    font-size: 1.5rem;
 }
 
 .section-img {
-    border-radius: 5px;
+    border-radius: 20px;
+}
+
+.card {
+    height: 170px;
+    border-radius: 15px;
+    box-shadow: 15px 15px var(--color-darkGray);
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-black);
+}
+
+.card-blue {
+    background-color: var(--color-blue);
+}
+
+.card-yellow {
+    background-color: var(--color-yellow);
+}
+
+.article-text {
+    font-size: 0.938rem;
 }
