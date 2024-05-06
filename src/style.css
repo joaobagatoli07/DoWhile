@@ -62,7 +62,7 @@
 }
 
 .card {
-    height: 170px;
+    height: 28vh;
     border-radius: 15px;
     box-shadow: 15px 15px var(--color-darkGray);
     font-family: 'Poppins', sans-serif;
@@ -93,20 +93,20 @@
     font-size: 2rem;
 }
 
-.accordion-button{
+.accordion-button {
     background-color: var(--color-darkGray);
     color: white;
 }
 
-.accordion-button:focus{
+.accordion-button:focus {
     box-shadow: none;
 }
 
-.accordion-button::after{
+.accordion-button::after {
     display: none;
 }
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
     background-color: var(--color-darkGray);
     color: white;
 }
