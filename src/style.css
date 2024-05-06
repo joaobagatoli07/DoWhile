@@ -6,6 +6,8 @@
     --color-gray: #515151;
     --color-blue: #89DDFF;
     --color-yellow: #FFD700;
+    --bs-accordion-btn-icon: url();
+    --bs-accordion-btn-active-icon: url();
 }
 
 * {
@@ -35,18 +37,76 @@
     color: var(--color-gray);
 }
 
-.section-title {
+.cards-section {
+    margin-top: 5%;
+}
+
+.cards-section-title {
     font-family: 'IBM Plex Sans Thai', sans-serif;
     font-size: 2.5rem;
-    font-weight: 600;
     color: var(--color-darkGray);
 }
 
 .section-arrow-button {
     background-color: var(--color-black);
     color: white;
+    border-radius: 20px;
+}
+
+.section-arrow-button i {
+    font-size: 1.5rem;
 }
 
 .section-img {
-    border-radius: 5px;
+    border-radius: 20px;
+}
+
+.card {
+    height: 170px;
+    border-radius: 15px;
+    box-shadow: 15px 15px var(--color-darkGray);
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-black);
+}
+
+.card-blue {
+    background-color: var(--color-blue);
+}
+
+.card-yellow {
+    background-color: var(--color-yellow);
+}
+
+.article-text {
+    font-size: 0.938rem;
+}
+
+.accordions-section {
+    background-color: var(--color-darkGray);
+    height: 100vh;
+    margin-top: 6%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.accordions-section-title {
+    color: white;
+    font-size: 2rem;
+}
+
+.accordion-button{
+    background-color: var(--color-darkGray);
+    color: white;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button::after{
+    display: none;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--color-darkGray);
+    color: white;
 }
